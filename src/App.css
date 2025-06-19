@@ -4,6 +4,55 @@
   box-sizing: border-box;
 }
 
+:root {
+  --main-font: "Nunito Sans", sans-serif;
+  --sub-font: "Josefin Sans", sans-serif;
+}
+
 html {
   font-size: 62.5%;
 }
+
+body {
+  padding: 4rem;
+  font-size: 1.6rem;
+  font-family: var(--main-font);
+}
+
+/* Start of Header Styling */
+.app-header {
+  font-family: var(--sub-font);
+  font-size: 3rem;
+  text-align: center;
+  padding-block: 3rem;
+}
+/* End of Header Styling */
+
+/* Start of To-Do-App Form section styling */
+.to-do-form-section {
+  padding-top: 1rem;
+}
+
+.to-do-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.form-input,
+.add-item-btn {
+  padding: 1rem 2rem;
+}
+
+.description-input {
+  width: 30%;
+}
+
+.add-item-btn {
+  border: none;
+  border-radius: 0.3rem;
+  background-color: green;
+  color: white;
+}
+/* End of To-Do-App Form section styling */
