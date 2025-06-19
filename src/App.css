@@ -22,7 +22,8 @@ body {
 /* Start of Header Styling */
 .app-header {
   font-family: var(--sub-font);
-  font-size: 3rem;
+  font-weight: 800;
+  font-size: 3.2rem;
   text-align: center;
   padding-block: 3rem;
 }
@@ -40,13 +41,19 @@ body {
   gap: 1rem;
 }
 
+.form-input {
+  font-weight: 600;
+  font-size: 1.4rem;
+}
+
 .form-input,
 .add-item-btn {
   padding: 1rem 2rem;
+  text-transform: capitalize;
 }
 
 .description-input {
-  width: 30%;
+  width: 40%;
 }
 
 .add-item-btn {
@@ -54,5 +61,36 @@ body {
   border-radius: 0.3rem;
   background-color: green;
   color: white;
+  cursor: pointer;
+  transition-duration: 0.3s;
+}
+
+.add-item-btn:hover {
+  background-color: #01b201;
 }
 /* End of To-Do-App Form section styling */
+
+/* Start of To-Do-List section styling */
+.to-do-list {
+  margin-top: 2.5rem;
+}
+
+.to-do-list-section {
+  margin-bottom: 0.8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10%;
+  border: 0.1rem solid #01b201;
+  border-radius: 2rem;
+  padding: 0.8rem 0;
+}
+
+.to-do-list-section h3 {
+  font-size: 1.8rem;
+}
+
+.to-do-checkbox {
+  padding: 1rem;
+}
+/* End of To-Do-List section styling */
