@@ -54,6 +54,7 @@ body {
 
 .description-input {
   width: 40%;
+  text-transform: none;
 }
 
 .add-item-btn {
@@ -76,21 +77,19 @@ body {
 }
 
 .to-do-list-section {
-  margin-bottom: 0.8rem;
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 10%;
-  border: 0.1rem solid #01b201;
   border-radius: 2rem;
-  padding: 0.8rem 0;
+  padding: 0.5rem 0;
 }
 
 .to-do-list-section h3 {
   font-size: 1.8rem;
 }
 
-.to-do-checkbox {
+/* .to-do-checkbox {
   padding: 1rem;
-}
+} */
 /* End of To-Do-List section styling */

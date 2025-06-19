@@ -4,7 +4,6 @@ function ToDoListItem({ title, description }) {
       <div className="to-do-list-section">
         <h3>{title}</h3>
         <p>{description}</p>
-        <input type="checkbox" className="to-do-checkbox" />
       </div>
     </section>
   );
